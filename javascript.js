@@ -50,7 +50,7 @@ const playRound = (evt) => {
         results.parentElement.dispatchEvent(onWin);
         return;
     }
-    results.textContent = `Player Score: ${humanScore} Computer Score: ${computerScore}`
+    results.innerHTML = `You chose ${playerSelection}, computer chose ${computerSelection}<br>Player Score: ${humanScore} Computer Score: ${computerScore}`
 }
 
 // get reference to main container
