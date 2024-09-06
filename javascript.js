@@ -51,9 +51,6 @@ const playRound = (evt) => {
         return;
     }
     results.textContent = `Player Score: ${humanScore} Computer Score: ${computerScore}`
-    
-    console.log(`round played, user chose ${playerSelection} pc chose ${computerSelection}`);
-    // results.textContent 
 }
 
 // get reference to main container
