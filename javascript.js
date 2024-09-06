@@ -102,8 +102,8 @@ container.addEventListener("onWin", () => {
     const restartBtn = document.createElement("button");
     restartBtn.textContent = "Restart Game";
     restartBtn.addEventListener("click", restart);
-    container.replaceChildren(winner);
-    container.append(restartBtn);
+
+    container.replaceChildren(winner, restartBtn);
 });
 
 
